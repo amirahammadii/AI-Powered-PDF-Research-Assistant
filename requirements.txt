@@ -1,0 +1,4 @@
+langchain==0.1.15
+openai==1.25.0
+PyPDF2==3.0.1
+faiss-cpu==1.7.4
