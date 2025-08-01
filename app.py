@@ -33,7 +33,7 @@ def run_query(vectorstore, query):
 
 if __name__ == "__main__":
     print("🔍 Loading PDF...")
-    text = load_pdf_text("sample_docs/sample_report.pdf")
+    text = load_pdf_text("A_Comprehensive_Survey_of_Deep_Learning.pdf")
 
     print("📄 Splitting text into chunks...")
     docs = split_text(text)
